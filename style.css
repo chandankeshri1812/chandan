@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    height:7vh;
+    width: 100vw;
+    position: fixed;
+    color: rgb(181, 176, 176);
+    background-color: rgb(35, 35, 35);
+    z-index: 2;
+}
+.navbar_left{
+padding: 0px 5px;
+}
+.navbar_left a {
+ text-decoration: none;
+ color: rgb(181, 176, 176);
+
+}
+.home_chandan{
+    font-size: 18px;
+    font-weight: 400;
+}
+.navbar_right{
+
+}.navbar_right a {
+    color: rgb(181, 176, 176);
+
+    text-decoration: none;
+}
+
+
+/* main */
+.main{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 7vh;
+    border: 2px solid green;
+    height: 100vh;
+    max-width: 100vw;
+    width: 100%;
+    /* background-color: grey; */
+background-image: url("./personal.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+filter: blur(10px) ;
+  -webkit-filter: blur(10px);
+  z-index: -2;
+/* opacity: 1; */
+
+}
+
+.main_div{
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+z-index: 2;
+}
+.main_left_1{
+/* background-color: red; */
+width: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 150px;
+}
+.main_left_1_1 img{
+    border: 3px solid black;
+    border-radius: 50%;
+height: 250px;
+
+}
+
+
+
+
+
+
+.main_left_1_2{
+    z-index: 2;
+    display: flex;
+flex-direction: column;
+/* color: aqua; */
+font-size: 20px;
+font-weight: 800;
+font-style: bold;
+
+}
+.main_left_1_2 a{
+  
+    color: rgb(181, 176, 176);
+text-decoration: none;
+
+}
+
+
+/* main right */
+.main_right{
+width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+/* padding: 100px ; */
+padding: 0px 100px ;
+}
+
+.main_right_1_1{
+    /* background-color: rgb(18, 177, 92);
+     */
+
+}
+.main_right_1_1 h2{
+/* z-index: 1000; */
+color : rgb(221, 223, 226);
+
+font-size: 25px;
+font-weight: 800;
+font-style:Bold;
+
+}
+
+.main_right_1_1 p{
+    color : rgb(221, 223, 226);
+    /* z-index: 100; */
+    padding: 20px;
+    font-size: 18px;
+font-weight: 400;
+font-style:normal;
+
+}
+/*  footer  */
+
+.footer
+{
+    z-index: 2;
+
+    border: 2px solid blue;
+    height: 100vh;
+    margin-top: 22vh;
+    max-width: 100vw;
+    max-width: 100%;
+
+}
+/*    
+
+Thin 100
+Thin 100 Italic
+ExtraLight 200
+ExtraLight 200 Italic
+Light 300
+Light 300 Italic
+Regular 400
+Regular 400 Italic
+Medium 500
+Medium 500 Italic
+SemiBold 600
+SemiBold 600 Italic
+Bold 700
+Bold 700 Italic
+ExtraBold 800
+ExtraBold 800 Italic
+Black 900
+Black 900 Italic */
